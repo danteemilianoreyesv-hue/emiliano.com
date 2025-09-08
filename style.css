@@ -1,0 +1,115 @@
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-nombre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo-nombre img {
+  height: 50px;
+}
+
+header .titulo {
+  text-align: right;
+}
+
+nav {
+  background: #00509e;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Tarjetas */
+.tarjeta {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tarjeta h3 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+/* Imágenes normales dentro de tarjeta (no galería) */
+.tarjeta img:not(.imagenes-multiples img) {
+  display: block;
+  margin: 15px auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* 🔹 Imágenes múltiples (MAMP y VSC) */
+.imagenes-multiples {
+  display: flex;
+  flex-wrap: wrap;          /* Si no caben, bajan a otra fila */
+  justify-content: flex-start; /* Alineadas desde la izquierda */
+  gap: 15px;                /* Espacio entre imágenes */
+  margin-top: 15px;
+}
+
+.imagenes-multiples img {
+  width: 180px;             /* Todas del mismo ancho */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagenes-multiples img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #003366;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+

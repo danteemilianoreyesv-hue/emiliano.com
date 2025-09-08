@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Primer Parcial - Semana 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-nombre">
+      <img src="img/dgeti.png" alt="Logo CBTIS 162">
+      <span>CBTis 162</span>
+    </div>
+    <div class="titulo">
+      <h1>Primer Parcial</h1>
+      <p>Semana 1</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="parcial1.html">Parcial 1</a></li>
+      <li><a href="parcial2.html">Parcial 2</a></li>
+      <li><a href="parcial3.html">Parcial 3</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Temas de la Semana 1</h2>
+
+      <!-- Qué es PHP -->
+      <div class="tarjeta">
+        <h3>¿Qué es PHP?</h3>
+        <p>
+          PHP es un lenguaje de programación que se ejecuta en el servidor y permite crear páginas web dinámicas. 
+          A diferencia de HTML, que solo muestra información estática, PHP permite procesar datos, conectarse a bases de datos, 
+          generar reportes, manejar sesiones y mucho más.
+        </p>
+        <img src="img/php-logo.png" alt="Logo oficial de PHP">
+        <p>Es muy usado en el desarrollo web profesional y escolar, siendo parte esencial de muchas aplicaciones en línea.</p>
+      </div>
+
+      <!-- Qué puede hacer PHP -->
+      <div class="tarjeta">
+        <h3>¿Qué puede hacer PHP?</h3>
+        <p>PHP da interactividad a las páginas web y permite crear aplicaciones completas:</p>
+        <ul>
+          <li>Generar contenido dinámico en páginas web.</li>
+          <li>Conectarse a bases de datos (ej. MySQL).</li>
+          <li>Procesar formularios y datos de usuarios.</li>
+          <li>Crear sistemas de login y gestión de usuarios.</li>
+          <li>Enviar correos automáticos o generar reportes.</li>
+        </ul>
+        <img src="img/php-funciones.png" alt="Ejemplo de funciones en PHP">
+      </div>
+
+      <!-- Instalación de MAMP -->
+      <div class="tarjeta">
+        <h3>Instalación de MAMP</h3>
+        <ul>
+          <li>Descargar MAMP desde la página oficial.</li>
+          <li>Elegir el instalador según tu sistema operativo (Windows o macOS).</li>
+          <li>Ejecutar el instalador:
+            <ul>
+              <li>Windows: MAMP_Setup.exe</li>
+              <li>macOS: MAMP.pkg</li>
+            </ul>
+          </li>
+          <li>Aceptar los términos y condiciones.</li>
+          <li>Seleccionar carpeta de instalación (Windows: C:\MAMP recomendado).</li>
+          <li>Finalizar la instalación y abrir MAMP.</li>
+          <li>Hacer clic en Start Servers.</li>
+          <li>Guardar los proyectos en la carpeta <b>htdocs</b>.</li>
+          <li>Verificar en el navegador: <code>http://localhost</code></li>
+        </ul>
+        <div class="imagenes-multiples">
+          <img src="img/descarga.png" alt="Descarga de MAMP">
+          <img src="img/iniciomap.png" alt="Inicio de MAMP">
+          <img src="img/carpeta.png" alt="Carpeta de instalación">
+          <img src="img/mamp.png" alt="Interfaz de MAMP">
+          <img src="img/server.png" alt="Iniciar servidores en MAMP">
+          <img src="img/htdocs.png" alt="Carpeta htdocs en MAMP">
+        </div>
+      </div>
+
+      <!-- Instalación Visual Studio Code -->
+      <div class="tarjeta">
+        <h3>Instalación de Visual Studio Code (VSC)</h3>
+        <p>VSC es un editor de código gratuito que facilita trabajar con PHP, HTML y CSS. Tiene extensiones que ayudan a programar mejor.</p>
+        <ol>
+          <li>Descargar desde <a href="https://code.visualstudio.com/" target="_blank">la página oficial</a>.</li>
+          <li>Elegir instalador según sistema operativo.</li>
+          <li>Instalar con las opciones recomendadas.</li>
+          <li>Abrir la carpeta de tu proyecto dentro de <b>htdocs</b>.</li>
+        </ol>
+        <div class="imagenes-multiples">
+          <img src="img/vsc1.png" alt="Pantalla de instalación VSC">
+          <img src="img/vsc2.png" alt="Icono de VSC">
+          <img src="img/vsc3.png" alt="Interfaz inicial VSC">
+          <img src="img/vsc4.png" alt="Extensiones en VSC">
+          <img src="img/vsc5.png" alt="Configuración de proyecto en VSC">
+        </div>
+      </div>
+
+      <!-- Carpeta de trabajo -->
+      <div class="tarjeta">
+        <h3>Carpeta de trabajo</h3>
+        <p>Todos los proyectos se guardan en <b>htdocs</b>. Esto permite que MAMP pueda ejecutar tus archivos y los cambios se reflejen al instante.</p>
+        <img src="img/htdocs.png" alt="Ejemplo de carpeta htdocs">
+      </div>
+
+      <!-- Extensión de archivos -->
+      <div class="tarjeta">
+        <h3>Extensión de archivos PHP</h3>
+        <p>Los archivos deben guardarse con <b>.php</b>. Ejemplo: hola.php. Ahora nos mostrará un ícono de un elefante morado.</p>
+        <img src="img/extensionphp.png" alt="Icono de extensión PHP">
+      </div>
+
+      <!-- Editar código -->
+      <div class="tarjeta">
+        <h3>Editar código PHP</h3>
+        <p>El código PHP se escribe entre <b>&lt;?php</b> y <b>?&gt;</b>. El servidor ejecuta estas instrucciones en tu navegador.</p>
+        <img src="img/editar-php.png" alt="Ejemplo editando código PHP">
+      </div>
+
+      <!-- Guardar archivos -->
+      <div class="tarjeta">
+        <h3>Guardar archivos</h3>
+        <p>Se guardan dentro de la carpeta del proyecto en <b>htdocs</b> para que MAMP los pueda ejecutar.</p>
+        <img src="img/guardararchivos.png" alt="Proceso de guardar archivos PHP">
+      </div>
+
+      <!-- Visualizar archivos -->
+      <div class="tarjeta">
+        <h3>Visualizar archivos en el navegador</h3>
+        <p>Para abrir un archivo PHP: <br>
+          1. Inicia MAMP.<br>
+          2. Escribe en el navegador: <i>http://localhost/nombreproyecto/archivo.php</i>.<br>
+          3. Se muestra lo que hayas escrito en tu archivo.
+        </p>
+        <img src="img/visualizar.png" alt="Visualización de archivo en navegador">
+      </div>
+
+      <!-- Variables PHP -->
+      <div class="tarjeta">
+        <h3>Variables en PHP</h3>
+        <p>Las variables guardan información y siempre comienzan con <b>$</b>.  
+        Ejemplo: <br>
+        Variable A y B, para ver cuál es mayor.
+        </p>
+        <img src="img/variables.png" alt="Ejemplo de variables en PHP">
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CBTis 162 - Proyecto de Programación</p>
+  </footer>
+</body>
+</html>
